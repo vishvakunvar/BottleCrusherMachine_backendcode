@@ -604,9 +604,9 @@ def upload_images_cloud():
     try:
         s3 = boto3.resource(
             service_name='s3',
-            region_name='ap-south-1',
-            aws_access_key_id='AKIA5GNU73D77B3UYHHQ',
-            aws_secret_access_key='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'
+            region_name='region_name',
+            aws_access_key_id='aws_access_key_id',
+            aws_secret_access_key='aws_secret_access_key'
         )
         for data in filteredData:
             s3.Bucket('dataimagestorage').put_object(Key=data[4], Body=data[3])
