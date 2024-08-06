@@ -1,0 +1,63 @@
+{
+    "data": {
+        "bottles": 0,
+        "cans": 0,
+        "polybags": 0
+    },
+    "machineInfo": {
+        "mcid": "TEST2023",
+        "area": "Chandiyal",
+        "city": "AHMEDABAD",
+        "state": "GUJARAT",
+        "country": "INDIA",
+        "phone": "1234567890"
+    },
+    "crusher": {
+        "pin": 18
+    },
+    "conveyor_fw": {
+        "pin": 23
+    },
+    "conveyor_rw": {
+        "pin": 24
+    },
+    "metal": {
+        "active": true,
+        "pin": 20
+    },
+    "polybag": {
+        "active": true,
+        "pin": 11
+    },
+    "binful": {
+        "active": true,
+        "proxysensor": {
+            "installed": true,
+            "pin": 9
+        },
+        "ultrasonic": {
+            "installed": false,
+            "echo": 6,
+            "trig": 13
+        }
+    },
+    "sorting_bottle": {
+        "pin": 25
+    },
+    "sorting_can": {
+        "pin": 8
+    },
+    "printer": {
+        "pin": 7
+    },
+    "weight": {
+        "referenceValue": -112,
+        "active": true,
+        "dt": 19,
+        "sck": 26
+    },
+    "password": {
+        "admin": "1234",
+        "master": "12345"
+    }
+}
